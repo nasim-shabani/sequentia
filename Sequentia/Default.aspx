@@ -2,216 +2,522 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-   !DOCTYPE HTML>
-<!--
-	Transitive by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Transitive by TEMPLATED</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+    <!DOCTYPE html>
 
-		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">Transitive <span>by TEMPLATED</span></a></div>
-				<a href="#menu" class="toggle"><span>Menu</span></a>
-			</header>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
-				</ul>
-			</nav>
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
 
-		<!-- Banner -->
-		<!--
-			To use a video as your background, set data-video to the name of your video without
-			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-			formats to work correctly.
-		-->
-			<section id="banner" data-video="images/banner">
-				<div class="inner">
-					<h1>Transitive</h1>
-					<p>A full responsive, business-oriented HTML5/CSS3 template<br />
-					built by <a href="https://templated.co/">Templated</a> and released under the <a href="https://templated.co/license">Creative Commons</a>.</p>
-					<a href="#one" class="button special scrolly">Get Started</a>
-				</div>
-			</section>
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="img/Header_Logo_White.png" alt=""></a>
+                </div>
 
-		<!-- One -->
-			<section id="one" class="wrapper style2">
-				<div class="inner">
-					<div>
-						<div class="box">
-							<div class="image fit">
-								<img src="images/pic01.jpg" alt="" />
-							</div>
-							<div class="content">
-								<header class="align-center">
-									<h2>Lorem ipsum dolor</h2>
-									<p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
-								</header>
-								<hr />
-								<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
-								<p>Vivamus fermentum nibh vel pharetra blandit. Cras a purus urna. Sed et libero ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse id hendrerit felis. Nulla viverra tempor dui at congue. Pellentesque quis nulla ornare, congue nisi id, finibus nulla. Aliquam sit amet hendrerit purus. Donec libero massa, posuere fermentum eros sit amet, maximus fringilla augue. Maecenas at rhoncus lorem. Vivamus ultricies consequat est, efficitur convallis libero. Vivamus rutrum semper mauris, vitae consequat eros tempor ac. Pellentesque et ornare sapien</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-intro">About</a></li>
+                        <li><a class="page-scroll" href="#section-speaker">Speaker</a></li>
+                        <li><a class="page-scroll" href="#section-ajenda">Agenda</a></li>
+                        <li><a class="page-scroll" href="#section-pricing">Buy Ticket</a></li>
+                        <li><a class="page-scroll" href="#section-partner">Partners</a></li>
+                        <li><a class="page-scroll" href="#section-venue">Venue</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
-		<!-- Two -->
-			<section id="two" class="wrapper style3">
-				<div class="inner">
-					<div id="flexgrid">
-						<div>
-							<header>
-								<h3>Tempus Feugiat</h3>
-							</header>
-							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-						<div>
-							<header>
-								<h3>Aliquam Nulla</h3>
-							</header>
-							<p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed </p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-						<div>
-							<header>
-								<h3>Sed Magna</h3>
-							</header>
-							<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.</p>
-							<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+        <!-- .nav -->
 
-		<!-- Three -->
-			<section id="three" class="wrapper style2">
-				<div class="inner">
-					<div class="grid-style">
+    </header>
 
-						<div>
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<h2>Lorem ipsum dolor</h2>
-										<p>maecenas feugiat ex purus, quis volutpat lacus placerat</p>
-									</header>
-									<hr />
-									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
-								</div>
-							</div>
-						</div>
+    <div class="jumbotron text-center">
+        <div class="content">
+          <%--  <div class="event-date"></div>
+            <h1>Title of Your Conference or Event</h1>
+            <p class="lead">It's a tag line, where you can write a key point of your idea. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button>--%>
+        </div>
+    </div>
+    <!-- .Jumbotron-->
 
-						<div>
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<h2>Vestibulum sit amet</h2>
-										<p>mattis sapien pretium tellus venenatis</p>
-									</header>
-									<hr />
-									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
-								</div>
-							</div>
-						</div>
 
-					</div>
-				</div>
-			</section>
+    <section id="section-intro" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="lead">
+                        Quickly disintermediate empowered methodologies with ubiquitous best practices. Distinctively fabricate exceptional niches with technically sound technologies. Professionally revolutionize seamless synergy with real-time imperatives. Interactively pursue top-line bandwidth whereas visionary e-services.
+                    </p>
+                    <p class="lead">
+                        Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <address>
+                        <strong>Eventas, Inc.</strong><br>
+                        1355 Market Street<br>
+                        Suite 900<br>
+                        San Francisco, CA 94103<br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .about-event -->
 
-		<!-- Four -->
-			<section id="four" class="wrapper style3">
-				<div class="inner">
+    <section id="section-speaker" class="section-wrapper team gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>SPEAKERS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Tom Hoffmann
+                                <small>Cintas</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
 
-					<header class="align-center">
-						<h2>Morbi interdum mollis sapien</h2>
-						<p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
-					</header>
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-2.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Zoe Krämer
+                                <small>Earthlink</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
 
-				</div>
-			</section>
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-3.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Helena Kühn
+                                <small>Herman</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper">
-				<div class="inner">
-					<section>
-						<div class="box">
-							<div class="content">
-								<h2 class="align-center">Get in Touch</h2>
-								<hr />
-								<form action="#" method="post">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input name="name" id="name" type="text" placeholder="Name">
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input name="email" id="email" type="email" placeholder="Email">
-									</div>
-									<div class="field">
-										<label for="dept">Department</label>
-										<div class="select-wrapper">
-											<select name="dept" id="dept">
-												<option value="">- Category -</option>
-												<option value="1">Manufacturing</option>
-												<option value="1">Shipping</option>
-												<option value="1">Administration</option>
-												<option value="1">Human Resources</option>
-											</select>
-										</div>
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-									</div>
-									<ul class="actions align-center">
-										<li><input value="Send Message" class="button special" type="submit"></li>
-									</ul>
-								</form>
-							</div>
-						</div>
-					</section>
-					<div class="copyright">
-						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>. Video <a href="http://coverr.co/">Coverr</a>.
-					</div>
-				</div>
-			</footer>
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-4.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Leon Werner
+                                <small>Level</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            </div>
+            <!-- .row -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-5.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Alexander Ziegler
+                                <small>A.G. Edwards</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
 
-	</body>
-</htm
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-6.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Benedikt
+                                <small>Fitch Co.</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-7.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Lara Hahn
+                                <small>Acterna</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+                <div class="col-sm-6 col-md-3">
+                    <figure class="thumbnail">
+                        <a href="#"><img src="img/img-team-8.jpg" class="img-responsive" alt="Image"></a>
+                        <figcaption class="caption text-center">
+                            <h3>Elias Friedrichs
+                                <small>Adolph</small>
+                            </h3>
+                            <ul class="social-links">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- /.col-sm-6 -->
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .team -->
+
+    <section id="section-ajenda" class="section-wrapper section-ajenda">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>AJENDA</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="session">
+                        <time>8:30AM</time>
+                        <h2>Doors Open</h2>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>9:30 - 9:40AM</time>
+                        <h2>Opening Remarks</h2>
+                        <h3>Fiona Kuhn <span>CO-FOUNDER & CEO, MES</span></h3>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>9:50 - 10:05AM</time>
+                        <h2>Focus on the story: how publishers and brands succeed on today's internet.</h2>
+                        <h3>Marie Jung <span>HEAD OF PARTNERSHIPS, MES</span></h3>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>10:10 - 10:35AM</time>
+                        <h2>Keynote Presentation</h2>
+                        <h3>Zoe Kühn <span>CO-FOUNDER & CEO,, BOOSTER</span></h3>
+                    </div>
+                    <!-- .session -->
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="session">
+                        <time>11:15 - 1:35PM</time>
+                        <h2>Brand Innovator Spotlight</h2>
+                        <h3>Tim Rams <span>DIRECTOR, CONTENT MARKETING, FIXS</span></h3>
+                        <h3>Daniel Fuchs <span>DIRECTOR OF MEDIA SERVICES, MENGO</span></h3>
+                        <h3>Hannah Keller <span>CO-FOUNDER, LOLO</span></h3>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>1:35 - 2:20PM</time>
+                        <h2>Fireside Chat: Making Native Work - An Agency Perspective</h2>
+                        <h3>Fiona Kuhn <span>CO-FOUNDER & CEO, MES</span></h3>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>2:20 - 3:20PM</time>
+                        <h2>Lunch Break</h2>
+                    </div>
+                    <!-- .session -->
+
+
+                </div>
+                <div class="col-md-4">
+                    <div class="session">
+                        <time>3:20PM - 4PM</time>
+                        <h2>Native Creatives Winners Presentation</h2>
+                        <h3>Johann Graf <span>VP Sales, MES</span></h3>
+                    </div>
+                    <!-- .session -->
+
+                    <div class="session">
+                        <time>4:05 - 5:30PM</time>
+                        <h2>Case Study: XYR</h2>
+                        <h3>Jan Pfeiffer <span>HEAD OF COMMUNICATIONS, TOT</span></h3>
+                        <h3>Marie Ilsner <span>PRESIDENT, PADDA</span></h3>
+                        <h3>Hannes Beck <span>MANAGING DIRECTOR, DEP</span></h3>
+                    </div>
+                    <!-- .session -->
+
+
+                    <div class="session">
+                        <time>5:30 - 6:00PM</time>
+                        <h2>Cocktail and Networking Party</h2>
+                    </div>
+                    <!-- .session -->
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="section-pricing" class="section-wrapper pricing-section gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>BUY TICKET</h1>
+                        <p>Quickly synthesize low-risk high-yield e-markets without dynamic.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>Early-bird PASS</h3>
+                            <span class="price"><sup>$</sup>100</span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Lunch on day 1</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+                <!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>ULTIMATE PASS</h3>
+                            <span class="price"><sup>$</sup>150</span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Lunch on day 1</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+                <!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="pricing-table-default text-center">
+                        <div class="pricing-head">
+                            <h3>PLATINUM</h3>
+                            <span class="price"><sup>$</sup>250</span>
+                        </div>
+                        <div class="pricing-detail">
+                            <ul class="pricing-list pink-i">
+                                <li>Main keynote speeches</li>
+                                <li>Access to all areas</li>
+                                <li>Lunch on day 1</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                    </div>
+                    <!-- /.pricing-table-wrapper -->
+                </div>
+                <!-- .col-sm-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .pricing-section -->
+
+
+    <section id="section-partner" class="section-wrapper client-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>PARTNERS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-1.jpg" alt="Image"></a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-2.jpg" alt="Image"></a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-3.jpg" alt="Image"></a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-4.jpg" alt="Image"></a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-5.jpg" alt="Image"></a>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="#"><img src="img/logo-client-6.jpg" alt="Image"></a>
+                </div>
+            </div>
+        </div>
+        <!--end of .container -->
+    </section>
+    <!-- .client-logo -->
+
+
+    <section id="section-venue" class="section-wrapper  gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>THE VENUE</h1>
+
+                        <p>Credibly recaptiualize cutting-edge functionalities vis-a-vis intuitive growth strategies. Appropriately evolve open-source potentialities via goal-oriented e-business. Enthusiastically target go forward scenarios and visionary "outside the box" thinking. Professionally administrate cost effective sources without corporate convergence.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="googleMap"></div>
+                </div>
+            </div>
+            <!-- .row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>STAY INFORMED</h2>
+                        <p>Don't miss the event!</p>
+                    </div>
+                    <form id="contactForm" class="subscribe-form form-inline" action="sendemail.php" method="POST">
+                        <div class="form-group">
+                            <label for="emailTwo" class="sr-only">Email</label>
+                            <input type="email" class="form-control input-lg" required="" id="emailTwo" name="email" placeholder="Enter your email address">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- contact-section -->
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; Conference. All rights reserved | Design By: <a href="https://uicookies.com">uiCookies</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+
+
 
 </asp:Content>

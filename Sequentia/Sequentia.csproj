@@ -128,43 +128,53 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="assets\css\font-awesome.min.css" />
-    <Content Include="assets\css\main.css" />
-    <Content Include="assets\fonts\fontawesome-webfont.svg" />
-    <Content Include="assets\js\jquery.min.js" />
-    <Content Include="assets\js\jquery.scrollex.min.js" />
-    <Content Include="assets\js\jquery.scrolly.min.js" />
-    <Content Include="assets\js\main.js" />
-    <Content Include="assets\js\skel.min.js" />
-    <Content Include="assets\js\util.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\fonts\fontawesome-webfont.eot" />
-    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
-    <Content Include="assets\fonts\fontawesome-webfont.woff" />
-    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
-    <Content Include="assets\fonts\FontAwesome.otf" />
-    <Content Include="images\banner.ogv" />
-    <Content Include="images\banner.webm" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="images\banner.jpg" />
-    <Content Include="images\banner.mp4" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\pic01.jpg" />
-    <Content Include="images\pic02.jpg" />
-    <Content Include="images\pic03.jpg" />
+    <Content Include="img\google-map-marker.png" />
+    <Content Include="img\img-jumbotron-bg.jpg" />
+    <Content Include="img\img-team-1.jpg" />
+    <Content Include="img\img-team-2.jpg" />
+    <Content Include="img\img-team-3.jpg" />
+    <Content Include="img\img-team-4.jpg" />
+    <Content Include="img\img-team-5.jpg" />
+    <Content Include="img\img-team-6.jpg" />
+    <Content Include="img\img-team-7.jpg" />
+    <Content Include="img\img-team-8.jpg" />
+    <Content Include="img\img-testimonial-1.jpg" />
+    <Content Include="img\img-testimonial-2.jpg" />
+    <Content Include="img\img-testimonial-3.jpg" />
+    <Content Include="img\logo-client-1.jpg" />
+    <Content Include="img\logo-client-2.jpg" />
+    <Content Include="img\logo-client-3.jpg" />
+    <Content Include="img\logo-client-3.png" />
+    <Content Include="img\logo-client-4.jpg" />
+    <Content Include="img\logo-client-5.jpg" />
+    <Content Include="img\logo-client-6.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\preloader.gif" />
+    <Content Include="img\preloader.svg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery.easing.min.js" />
+    <Content Include="js\scripts.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -251,6 +261,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
